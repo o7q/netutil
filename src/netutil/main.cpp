@@ -45,8 +45,8 @@ string logArgs;    // log arguments
 main()
 {
     struct stat buf;
-    string hello = "netutil";
-    if (stat(hello.c_str(), &buf) != 0)
+    string dir = "netutil";
+    if (stat(dir.c_str(), &buf) != 0)
     {
         system("mkdir netutil\\logs");
     }
