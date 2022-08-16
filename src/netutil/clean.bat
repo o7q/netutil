@@ -1,4 +1,5 @@
 @echo off
+color E
 rmdir .vscode /s /q
-del ..\cool.txt /f
+del ..\..\..\PackagedBuild\netutil\netutil.exe /f
 pause
