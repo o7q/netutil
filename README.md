@@ -13,12 +13,12 @@
 netutil takes in arguments and auto-configures powershell scripts to do networking tasks.
 
 ## <b>Modules</b>
-<b>Ping</b> Ping the specified address (uses the `ping` command) \
-<b>Net Activity</b> Displays all active connections (uses the `netstat` commmand) \
-<b>DNS Query</b> Displays the bound ip to of the specified domain (uses the `nslookup` command) \
+<b>Ping</b> Ping the specified address (uses `ping`) \
+<b>Net Activity</b> Displays all active connections (uses `netstat`) \
+<b>DNS Query</b> Displays the bound ip to of the specified domain (uses `nslookup`) \
 <b>Geolocator</b> Displays the geolocation data for the specified ip (uses `ipinfo.io`) \
-<b>Route Tracer</b> Displays the path a packet takes to get to the specified address (uses the `tracert` command)
+<b>Route Tracer</b> Displays the path a packet takes to get to the specified address (uses `tracert)
 
 <br>
 
-<i>Running C++ compiled with MinGW G++</i>
+<i>Programmed with C++ and compiled using MinGW G++</i>
