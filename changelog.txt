@@ -1,5 +1,6 @@
 ~ v1.1.0
-- Added session manager
+- Added a session manager
+- Updated the logging system
 - Updated compiler scripts
 - Now using the MIT license
 - Removed licensing info in the "About" screen

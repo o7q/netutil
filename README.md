@@ -1,6 +1,6 @@
 <img src="assets/images/readmebanner.png"/>
 
-#### https://github.com/o7q/netutil/releases
+# Downloads: https://github.com/o7q/netutil/releases
 ### Welcome! netutil is a simple, command-line based, networking utility-box that executes pre-configured powershell scripts.
 
 <br>
