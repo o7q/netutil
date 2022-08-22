@@ -1,4 +1,4 @@
 @echo off
-color E
+color e
 g++ *.cpp -o "..\..\..\PackagedBuild\\netutil\netutil.exe"
 PAUSE
