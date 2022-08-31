@@ -28,7 +28,7 @@ void col(); // color transition
 // program variables
 string srtArgs = "powershell -command "; // powershell arguments
 // graphical variables
-string ver = "v1.1.0";                                   // version
+string ver = "v1.1.1";                                   // version
 string cred = "                                 by o7q"; // credit
 string head = "               __        __  _ __\n"
               "   ____  ___  / /___  __/ /_(_) /\n"
@@ -37,7 +37,7 @@ string head = "               __        __  _ __\n"
               "/_/ /_/\\___/\\__/\\__,_/\\__/_/_/   " +
               ver;                                                                                       // header
 string qt = "To quit, input \"q\".";                                                                     // quit notice
-string d = "\n\nDONE!";                                                                                      // done notice
+string d = "\n\nDONE!";                                                                                  // done notice
 string sep = "\n\n===============================================================================+\n\n"; // separator
 // session variables
 string sessDate;   // session date
