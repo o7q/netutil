@@ -2,4 +2,4 @@
 color e
 g++ *.cpp -o "..\..\..\PackagedBuild\netutil\netutil.exe"
 echo.
-PAUSE
+pause

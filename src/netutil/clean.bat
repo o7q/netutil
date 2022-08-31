@@ -11,4 +11,4 @@ del "..\..\..\PackagedBuild\netutil\netutil.exe" /f 2> nul
 rmdir "..\..\..\PackagedBuild\netutil\netutil" /s /q 2> nul
 
 echo.
-PAUSE
+pause
