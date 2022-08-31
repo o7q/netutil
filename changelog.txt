@@ -1,3 +1,7 @@
+~ v1.1.1
+- libstdc++ and libgcc are now statically linked (dll files are no longer needed)
+- Added an icon to the executable
+
 ~ v1.1.0
 - Added a session manager
 - Updated the logging system
