@@ -132,9 +132,10 @@ void about()
     cout << head + " [About]\n" + cred + "\n\nTo quit, press any key.";
 
     // about
-    cout << sep + "netutil by o7q\nA command-line based utility-box full of helpful networking commands.\n\n"
-                  "Operating Components:\n- ping\n- netstat\n- nslookup\n- ipinfo.io\n- tracert\n\n"
-                  "* Farther documentation can be found on the netutil GitHub page which can be accessed from the menu." +
+    cout << sep +
+                "netutil by o7q\nA command-line based utility-box full of helpful networking commands.\n\n"
+                "Operating Components:\n- ping\n- netstat\n- nslookup\n- ipinfo.io\n- tracert\n\n"
+                "* Farther documentation can be found on the netutil GitHub page which can be accessed from the menu." +
                 sep;
 
     // quit
