@@ -1,5 +1,6 @@
 ~
 - The icon now compiles alongside the executable
+- Added a string repeater function
 
 ~ v1.1.1
 - libstdc++ and libgcc are now statically linked (dll files are no longer needed)

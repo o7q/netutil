@@ -6,28 +6,24 @@ using namespace std;
 
 // functions
 
-// info functions
-void about();  // 1
-void github(); // 2
 // module functions
+void about();       // 1
+void github();      // 2
 void ping();        // 3
 void netactivity(); // 4
 void dnsquery();    // 5
 void geolocator();  // 6
 void routetracer(); // 7
-// program functions
-void updLogStr(); // update log string
-// graphical functions
-void sp();  // spacer
-void clr(); // clear
-void ps();  // pause
-void col(); // color transition
+// other functions
+void updLogStr();                         // update log string
+void sp();                                // spacer
+void clr();                               // clear
+void ps();                                // pause
+void col();                               // color transition
+string strRep(string charIn, int amount); // string repeater
 
 // global variables
-
-// program variables
-string srtArgs = "powershell -command "; // powershell arguments
-// graphical variables
+string srtArgs = "powershell -command ";                 // powershell arguments
 string ver = "v1.1.1";                                   // version
 string cred = "                                 by o7q"; // credit
 string head = "               __        __  _ __\n"
@@ -35,16 +31,15 @@ string head = "               __        __  _ __\n"
               "  / __ \\/ _ \\/ __/ / / / __/ / / \n"
               " / / / /  __/ /_/ /_/ / /_/ / /  \n"
               "/_/ /_/\\___/\\__/\\__,_/\\__/_/_/   " +
-              ver;                                                                                       // header
-string qt = "To quit, input \"q\".";                                                                     // quit notice
-string d = "\n\nDONE!";                                                                                  // done notice
-string sep = "\n\n===============================================================================+\n\n"; // separator
-// session variables
-string sessDate;   // session date
-int logNum;        // log number
-string logType;    // log type
-string logNum_str; // log number string
-string logArgs;    // log arguments
+              ver;                   // header
+string qt = "To quit, input \"q\"."; // quit notice
+string d = "\n\nDONE!";              // done notice
+string sep;                          // separator
+string sessDate;                     // session date
+int logNum;                          // log number
+string logType;                      // log type
+string logNum_str;                   // log number string
+string logArgs;                      // log arguments
 
 main()
 {
@@ -53,14 +48,12 @@ main()
     // configure ctime
     time_t n = time(NULL);
     tm *tm = localtime(&n);
-    // create time ints
     int m = 1 + tm->tm_mon;
     int d = tm->tm_mday;
     int y = 1900 + tm->tm_year;
     int t_h = tm->tm_hour;
     int t_m = tm->tm_min;
     int t_s = tm->tm_sec;
-    // ints -> strings
     string m_str = to_string(m);
     string d_str = to_string(d);
     string y_str = to_string(y);
@@ -72,6 +65,8 @@ main()
     // create session directory
     string dirCmd = "mkdir netutil\\sessions\\session" + sessDate + "\\logs";
     system(dirCmd.c_str());
+
+    sep = "\n\n" + strRep("=", 79) + "+\n\n";
 
     while (true)
     {
@@ -354,10 +349,6 @@ void routetracer()
     col();
 }
 
-// functions
-
-// program functions
-
 // update log string function
 void updLogStr()
 {
@@ -390,4 +381,14 @@ void ps()
 void col()
 {
     system("color 6");
+}
+
+string strRep(string charIn, int amount)
+{
+    string output;
+    for (int i = 0; i < amount; i++)
+    {
+        output += charIn;
+    }
+    return output;
 }
