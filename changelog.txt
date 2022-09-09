@@ -1,4 +1,5 @@
-~
+~ v1.2.0
+- New icon
 - The icon now compiles alongside the executable
 - Added a string repeater function
 

@@ -24,7 +24,7 @@ string strRep(string charIn, int amount); // string repeater
 
 // global variables
 string srtArgs = "powershell -command ";                 // powershell arguments
-string ver = "v1.1.1";                                   // version
+string ver = "v1.2.0";                                   // version
 string cred = "                                 by o7q"; // credit
 string head = "               __        __  _ __\n"
               "   ____  ___  / /___  __/ /_(_) /\n"
