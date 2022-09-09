@@ -2,7 +2,10 @@
 #include <ctime>
 #include <string>
 
-using namespace std;
+using std::cin;
+using std::cout;
+using std::string;
+using std::to_string;
 
 // functions
 
