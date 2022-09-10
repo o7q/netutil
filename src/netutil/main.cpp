@@ -384,6 +384,7 @@ void col()
     system("color 6");
 }
 
+// string repeater function
 string strRep(string charIn, int amount)
 {
     string output;
