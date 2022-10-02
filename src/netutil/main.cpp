@@ -43,6 +43,8 @@ string logArgs;                      // log arguments
 
 main()
 {
+    system(("title netutil " + ver).c_str());
+
     // create session
 
     // configure ctime
