@@ -1,7 +1,7 @@
 <img src="assets/images/readmebanner.png">
 
 # [<b>>> Download Latest</b>](https://github.com/o7q/netutil/releases/download/v1.2.0/netutil.exe)
-<h3>Welcome! netutil is a simple, command-line based, networking utility-box that executes pre-configured powershell scripts.</h3>
+<h3>Welcome! <b>netutil</b> is a simple, command-line based, networking utility-box that executes pre-configured powershell scripts.</h3>
 
 ---
 
