@@ -85,38 +85,14 @@ main()
         col();
         switch (i)
         {
-        case 0:
-            col();
-            _Exit(0);
-            break;
-
-        case 1:
-            about();
-            break;
-
-        case 2:
-            github();
-            break;
-
-        case 3:
-            ping();
-            break;
-
-        case 4:
-            netactivity();
-            break;
-
-        case 5:
-            dnsquery();
-            break;
-
-        case 6:
-            geolocator();
-            break;
-
-        case 7:
-            routetracer();
-            break;
+        case 0: col(); _Exit(0); break;
+        case 1: about(); break;
+        case 2: github(); break;
+        case 3: ping(); break;
+        case 4: netactivity(); break;
+        case 5: dnsquery(); break;
+        case 6: geolocator(); break;
+        case 7: routetracer(); break;
         }
     }
 
@@ -390,9 +366,6 @@ void col()
 string strRep(string charIn, int amount)
 {
     string output;
-    for (int i = 0; i < amount; i++)
-    {
-        output += charIn;
-    }
+    for (int i = 0; i < amount; i++) output += charIn;
     return output;
 }
