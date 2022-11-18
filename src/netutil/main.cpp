@@ -75,9 +75,10 @@ main()
         clr();
 
         // show info and header
-        cout << head + " [Menu]\n" + cred + "\n\nTo navigate, input a number.\nTo quit, input any non-number.\n\n"
-                                            "INFO:\n[1] About\n[2] Open GitHub Repo\n\n"
-                                            "MODULES:\n[3] Ping\n[4] Net Activity\n[5] DNS Query\n[6] Geolocator\n[7] Route Tracer\n\n";
+        cout << head + " [Menu]\n" + cred +
+                       "\n\nTo navigate, input a number.\nTo quit, input any non-number.\n\n"
+                       "INFO:\n[1] About\n[2] Open GitHub Repo\n\n"
+                       "MODULES:\n[3] Ping\n[4] Net Activity\n[5] DNS Query\n[6] Geolocator\n[7] Route Tracer\n\n";
 
         // module switch
         int i;
@@ -144,24 +145,14 @@ void ping()
     cout << sep + "Specify an address to ping:\n";
     string ip;
     cin >> ip;
-    if (ip == "q")
-    {
-        col();
-
-        return;
-    }
+    if (ip == "q") { col(); return; }
     cout << "\n";
 
     // ping input
     cout << "Specify the number of pings:\n";
     string pi;
     cin >> pi;
-    if (pi == "q")
-    {
-        col();
-
-        return;
-    }
+    if (pi == "q") { col(); return; }
     sp();
 
     // ping work
@@ -293,24 +284,14 @@ void routetracer()
     cout << sep + "Specify an address to trace:\n";
     string ip;
     cin >> ip;
-    if (ip == "q")
-    {
-        // quit
-        col();
-        return;
-    }
+    if (ip == "q") { col(); return; }
     cout << "\n";
 
     // hops input
     cout << "Specify the max number of hops:\n";
     string ho;
     cin >> ho;
-    if (ho == "q")
-    {
-        // quit
-        col();
-        return;
-    }
+    if (ho == "q") { col(); return; }
     sp();
 
     // routetracer work
