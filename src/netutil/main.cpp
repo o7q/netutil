@@ -41,7 +41,7 @@ string logType;                      // log type
 string logNum_str;                   // log number string
 string logArgs;                      // log arguments
 
-main()
+int main()
 {
     system(("title netutil " + ver).c_str());
 
