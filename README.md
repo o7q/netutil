@@ -22,4 +22,4 @@ netutil takes in arguments and auto-configures powershell scripts to do networki
 ---
 
 <b>netutil</b> \
-Programmed with C++ and compiled using MinGW G++
+Written in C++ and compiled using MinGW G++
