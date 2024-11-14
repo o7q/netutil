@@ -1,3 +1,6 @@
+# This repository is no longer maintained.
+This was one of my C++ applications I used to learn C++ and I never plan to update it.
+
 <img src="assets/images/readmebanner.png">
 
 # [<b>>> Download Latest</b>](https://github.com/o7q/netutil/releases/download/v1.2.0/netutil.exe)
